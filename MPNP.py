@@ -5,7 +5,6 @@ def run():
     import plotly.express as px
     from datetime import datetime
 
-
     # Cargar datos
     df_np = pd.read_csv("MPNP.csv", sep=";")
 
